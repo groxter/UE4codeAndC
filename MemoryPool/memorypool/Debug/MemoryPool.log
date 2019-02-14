@@ -1,0 +1,25 @@
+﻿  MemoryPool.cpp
+c:\users\antonio\source\repos\memorypool\memorypool\memorypool.cpp(22): error C2061: syntax error: identifier 'sizeT'
+  c:\users\antonio\source\repos\memorypool\memorypool\memorypool.cpp(78): note: see reference to class template instantiation 'TrackingAllocator<T>' being compiled
+c:\users\antonio\source\repos\memorypool\memorypool\memorypool.cpp(22): error C2238: unexpected token(s) preceding ';'
+c:\users\antonio\source\repos\memorypool\memorypool\memorypool.cpp(23): error C2039: 'ptrdiffT': is not a member of 'std'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.13.26128\include\vector(19): note: see declaration of 'std'
+c:\users\antonio\source\repos\memorypool\memorypool\memorypool.cpp(23): error C2061: syntax error: identifier 'ptrdiffT'
+c:\users\antonio\source\repos\memorypool\memorypool\memorypool.cpp(23): error C2238: unexpected token(s) preceding ';'
+c:\users\antonio\source\repos\memorypool\memorypool\memorypool.cpp(38): error C2061: syntax error: identifier 'sizeType'
+c:\users\antonio\source\repos\memorypool\memorypool\memorypool.cpp(44): error C2061: syntax error: identifier 'sizeType'
+c:\users\antonio\source\repos\memorypool\memorypool\memorypool.cpp(45): error C2535: 'T *TrackingAllocator<T>::allocate(void)': member function already defined or declared
+  c:\users\antonio\source\repos\memorypool\memorypool\memorypool.cpp(38): note: see declaration of 'TrackingAllocator<T>::allocate'
+c:\users\antonio\source\repos\memorypool\memorypool\memorypool.cpp(49): error C2061: syntax error: identifier 'sizeType'
+c:\users\antonio\source\repos\memorypool\memorypool\memorypool.cpp(54): error C3646: 'maxSize': unknown override specifier
+c:\users\antonio\source\repos\memorypool\memorypool\memorypool.cpp(54): error C2059: syntax error: '('
+c:\users\antonio\source\repos\memorypool\memorypool\memorypool.cpp(55): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\users\antonio\source\repos\memorypool\memorypool\memorypool.cpp(71): error C3646: 'getAllocations': unknown override specifier
+c:\users\antonio\source\repos\memorypool\memorypool\memorypool.cpp(71): error C2059: syntax error: '('
+c:\users\antonio\source\repos\memorypool\memorypool\memorypool.cpp(72): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\users\antonio\source\repos\memorypool\memorypool\memorypool.cpp(77): error C3646: 'memoryAllocations': unknown override specifier
+c:\users\antonio\source\repos\memorypool\memorypool\memorypool.cpp(77): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\antonio\source\repos\memorypool\memorypool\memorypool.cpp(78): fatal error C1903: unable to recover from previous error(s); stopping compilation
+  INTERNAL COMPILER ERROR in 'C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.13.26128\bin\HostX86\x86\CL.exe'
+      Please choose the Technical Support command on the Visual C++
+      Help menu, or open the Technical Support help file for more information
